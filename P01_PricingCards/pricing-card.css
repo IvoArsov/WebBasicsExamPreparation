@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,900');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaf0f1;
+}
+
+img{
+    width: 90px;
+    height: 90px;
+}
+
+h2{
+    text-transform: capitalize;
+    color: #6a6c6c;
+}
+
+.card-holder{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+li{
+    list-style-type: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-right: 20px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    width: 280px;
+    box-shadow: 3px 9px 17px 0 rgba(213,218,219,1);
+}
+
+li:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+li:hover button{
+    background-color: #ff4d00;
+}
+
+li:hover h2,
+li:hover p{
+    color: #000000;
+}
+
+li:hover .free-button{
+    background-color: #7abec9;
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 11px 12px 17px 0 rgba(213,218,219,0.37);
+}
+
+.description{
+    width: calc(100% - 20px);
+    margin: 1% auto;
+    color: #6a6c6c;
+    font-size: 14px;
+}
+
+.price{
+    font-size: 2rem;
+    font-weight: 200;
+    color: #fb7f40;
+    margin: 50px auto;
+}
+
+.free-price{
+    color: #838585;
+}
+
+button{
+    padding: 10px 45px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border:none;
+    background-color: #fb7f40;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.free-button{
+    background-color: #93dde8;
+}

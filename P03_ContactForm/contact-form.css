@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=OpenSans:400,900');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body{
+    margin: 0;
+    padding: 0;
+    font: 16px 'Open Sans', sans-serif;
+    background-color: #eaf0f1;
+}
+
+form{
+    width: 50%;
+    margin: 5% auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 2px 6px 24px -5px rgba(0,0,0,0.75);
+}
+
+.upper-sign{
+    background-color: #ff4f00;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h1{
+    font-size: 18px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.left{
+    margin-right: 50px;
+}
+
+.left, .right{
+    flex-grow: 1;
+    width: 80%;
+    padding: 20px;
+}
+
+.red-star{
+    color: red;
+}
+
+.icon-group{
+    display: flex;
+}
+
+input{
+    line-height: 25px;
+}
+
+.icon-group i{
+    padding: 10px 10px 10px 12px;
+    width: 20px;
+    height: 20px;
+    background-color: #eeeeee;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+label{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+input,
+textarea{
+    width: calc(100% - 10px);
+    border: 2px solid #eeeeee;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+button{
+    width: 100%;
+    margin-top: 20px;
+    height: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #ff4f00;
+    color: #ffffff;
+    border: none;
+    font-size: 1.3rem;
+}
+
+button:hover{
+    background-color: #565656;
+}
